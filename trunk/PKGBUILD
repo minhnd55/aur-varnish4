@@ -5,8 +5,8 @@
 # Contributor: Roberto Alsina <ralsina@kde.org>
 
 pkgname=varnish
-pkgver=4.0.3
-pkgrel=2
+pkgver=4.0.4
+pkgrel=1
 pkgdesc="High-performance HTTP accelerator"
 arch=('i686' 'x86_64')
 url="http://www.varnish-cache.org/"
@@ -19,7 +19,7 @@ install=$pkgname.install
 source=("http://repo.varnish-cache.org/source/$pkgname-$pkgver.tar.gz"
         varnish-vcl-reload
         varnish.service)
-md5sums=('16a683f2e41f7d80219cec5d4649380c'
+md5sums=('0915ca5e14c53f5f157695b0447f37db'
          '03196dee7fc68e75069393d52c370762'
          '699d118a069c2e63e49c81f275ce2658')
 
