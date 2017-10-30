@@ -5,7 +5,7 @@
 # Contributor: Roberto Alsina <ralsina@kde.org>
 
 pkgname=varnish
-pkgver=4.0.4
+pkgver=4.0.5
 pkgrel=1
 pkgdesc="High-performance HTTP accelerator"
 arch=('i686' 'x86_64')
@@ -16,10 +16,10 @@ makedepends=('python-docutils')
 optdepends=('python: needed for vmod development')
 backup=('etc/varnish/default.vcl')
 install=$pkgname.install
-source=("http://repo.varnish-cache.org/source/$pkgname-$pkgver.tar.gz"
+source=("http://varnish-cache.org/_downloads/$pkgname-$pkgver.tgz"
         varnish-vcl-reload
         varnish.service)
-md5sums=('0915ca5e14c53f5f157695b0447f37db'
+md5sums=('dd02e32be2bccdb613eb337822b444f8'
          '03196dee7fc68e75069393d52c370762'
          '699d118a069c2e63e49c81f275ce2658')
 
